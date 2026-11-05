@@ -33,4 +33,4 @@ RUN a2enmod rewrite
 RUN chown -R www-data:data /var/www/html/storage /var/www/html/bootstrap/cache || true
 RUN chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache || true
 
-EXPOSE 80
+EXPOSE 3000
